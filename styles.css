@@ -1,0 +1,23 @@
+.odet--prod-group-container {
+  text-align: left;
+  padding: 10px 10px 0 10px;
+  margin: 10px;
+  position: relative;
+  border: 1px solid #B6B6B6;
+  border-radius: 6px;
+}
+.odet--prod-status {
+  border: 0;
+  transform: translateY(-30px);
+  background: #3E6B12;
+  width: fit-content;
+  border-radius: 18.5px;
+  padding: 10px 18px;
+}
+
+.odet--prod-status .odet--prod-status-text {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  color: #ffffff;
+}
