@@ -1,4 +1,19 @@
 .odet-prod--wrapper {
+  width: 100%;
+  margin: 32px 0;
+}
+.odet-prod--wrapper .odet-prod--row {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+}
+.odet-prod--wrapper .odet-prod--col {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  /* height: 40px; */
+}
+.odet-prod--wrapper .odet-prod--status-container {
   text-align: left;
   /* padding: 10px 10px 0 10px; */
   /* margin: 10px; */
@@ -6,28 +21,83 @@
   border: 1px solid #B6B6B6;
   border-radius: 6px;
   padding: 42px 10px 26px 10px;
-  margin: 32px 0;
   display: flex;
 }
-.odet-prod--wrapper .odet-prod--row {
-  display: flex;
-  flex-direction: row;
-}
-.odet-prod--wrapper .odet-prod--col {
-  display: flex;
-  flex-direction: column;
-}
-.odet-prod--wrapper .odet-prod--status {
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--status {
   border: 0;
   transform: translateY(-62px);
   background: #3E6B12;
   width: fit-content;
   border-radius: 18.5px;
   padding: 10px 18px;
+  position: absolute;
 }
-.odet-prod--wrapper .odet-prod--status .odet-prod--status-text {
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--status .odet-prod--status-text {
   font-size: 16px;
   line-height: 19px;
   text-align: left;
   color: #ffffff;
+}
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile {
+  width: 100%;
+}
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--img {
+  width: 10%;
+}
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--img .odet-prod--img-graphic {
+  max-height: 100%;
+  vertical-align: top;
+  max-width: 100%;
+  @media all and (-ms-high-contrast: none),(-ms-high-contrast: active) {
+    height: 100%;
+  }
+}
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--brand {
+  margin-bottom: 8px;
+}
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--brand .odet-prod--brand-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #666666;
+}
+
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--name {
+  margin-bottom: 10px;
+}
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--name .odet-prod--name-text {
+  width: 75%;
+  font-size: 16px;
+  line-height: 23px;
+  color: #002877;
+}
+
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--item-id {
+  margin-bottom: 8px;
+}
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--item-id .odet-prod--item-id-text {
+  font-size: 13px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--rating-review {
+  margin-bottom: 8px;
+}
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--rating-review .odet-prod--rating-review-text {
+  font-size: 14px;
+  line-height: 16px;
+  color: #0458AD;
+}
+
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details {
+  width: 49%;
+}
+
+
+
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--qty-price {
+  width: 21%;
+}
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--cta {
+  width: 20%;
 }
