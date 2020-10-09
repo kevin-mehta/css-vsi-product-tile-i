@@ -62,6 +62,7 @@
   position: absolute;
 }
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--status .odet-prod--status-text {
+  font-family: corisandebold;
   font-size: 16px;
   line-height: 19px;
   text-align: left;
@@ -131,7 +132,7 @@
 }
 
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--qty-price .odet-prod--qty {
-
+  margin-bottom: 12px;
 }
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--qty-price .odet-prod--qty-text {
   font-family: corisandebold;
@@ -140,21 +141,51 @@
   color: #717171;
 }
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--qty-price .odet-prod--price {
-
+  margin-bottom: 9px;
 }
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--qty-price .odet-prod--price-text {
   font-family: corisandebold;
-  font-size: 12px;
-  line-height: 14px;
-  color: #717171;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
 }
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--qty-price .odet-prod--warning {
 
 }
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--qty-price .odet-prod--warning-text {
-
+  font-family: corisanderegular;
+  font-size: 16px;
+  line-height: 23px;
+  color: #424242;
 }
 
-.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--cta {
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--cta-disclaimer {
   width: 20%;
+}
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--cta-disclaimer .odet-prod--cta {
+  margin-bottom: 11px;
+}
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--cta-disclaimer .odet-prod--cta .odet-prod--cta-btn {
+  width: 149px;
+  height: 44px;
+  background-color: #0458AD;
+  border-radius: 5px;
+  border: 1px solid #0458AD;
+}
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--cta-disclaimer .odet-prod--cta .odet-prod--cta-text {
+  font-family: corisanderegular;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--cta-disclaimer .odet-prod--disclaimer {
+  width: 149px;
+  text-align: center;
+}
+.odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--cta-disclaimer .odet-prod--disclaimer .odet-prod--disclaimer-text {
+  font-family: corisanderegular;
+  font-size: 12px;
+  line-height: 14px;
+  color: #666666;
+  align-content: center;
 }
