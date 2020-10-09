@@ -7,7 +7,6 @@
 	font-style: normal;
 	font-display: swap;
 }
-
 @font-face {
 	font-family: "corisandebold";
 	src: url(https://content.vitaminshoppe.com/fonts/corisandebold/corisandebold.eot);
@@ -16,24 +15,20 @@
 	font-style: normal;
 	font-display: swap;
 }
-
 .odet-prod--wrapper {
 	width: 100%;
 	margin: 32px 0;
 }
-
 .odet-prod--wrapper .odet-prod--row {
 	display: flex;
 	flex-direction: row;
 	/* border: 1px solid red; */
 }
-
 .odet-prod--wrapper .odet-prod--col {
 	display: flex;
 	flex-direction: column;
 	/* border: 1px solid gray; */
 }
-
 .odet-prod--wrapper .odet-prod--status-container {
 	text-align: left;
 	position: relative;
@@ -42,7 +37,6 @@
 	padding: 42px 10px 26px 10px;
 	display: flex;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--status {
 	border: 0;
 	transform: translateY(-62px);
@@ -52,7 +46,6 @@
 	padding: 10px 18px;
 	position: absolute;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--status .odet-prod--status-text {
 	font-family: corisandebold;
 	font-size: 16px;
@@ -60,15 +53,12 @@
 	text-align: left;
 	color: #ffffff;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile {
 	width: 100%;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--img {
 	width: 10%;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--img .odet-prod--img-graphic {
 	max-height: 100%;
 	vertical-align: top;
@@ -77,27 +67,22 @@
 		height: 100%;
 	}
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details {
 	width: 49%;
 	margin-left: 17px;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--brand {
 	margin-bottom: 8px;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--brand .odet-prod--brand-text {
 	font-family: corisanderegular;
 	font-size: 14px;
 	line-height: 20px;
 	color: #666666;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--name {
 	margin-bottom: 10px;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--name .odet-prod--name-text {
 	font-family: corisandebold;
 	width: 75%;
@@ -105,74 +90,60 @@
 	line-height: 23px;
 	color: #002877;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--item-id {
 	margin-bottom: 8px;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--item-id .odet-prod--item-id-text {
 	font-family: corisanderegular;
 	font-size: 13px;
 	line-height: 18px;
 	color: #666666;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--rating-review {
 	margin-bottom: 8px;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--details .odet-prod--rating-review .odet-prod--review-text {
 	font-family: corisanderegular;
 	font-size: 14px;
 	line-height: 16px;
 	color: #0458AD;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--qty-price {
 	width: 21%;
 	margin-left: 17px;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--qty-price .odet-prod--qty {
 	margin-bottom: 12px;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--qty-price .odet-prod--qty-text {
 	font-family: corisandebold;
 	font-size: 12px;
 	line-height: 14px;
 	color: #717171;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--qty-price .odet-prod--price {
 	margin-bottom: 9px;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--qty-price .odet-prod--price-text {
 	font-family: corisandebold;
 	font-size: 16px;
 	line-height: 19px;
 	color: #333333;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--qty-price .odet-prod--warning {}
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--qty-price .odet-prod--warning-text {
 	font-family: corisanderegular;
 	font-size: 16px;
 	line-height: 23px;
 	color: #424242;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--cta-disclaimer {
 	width: 20%;
 	margin-left: 17px;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--cta-disclaimer .odet-prod--cta {
 	margin-bottom: 11px;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--cta-disclaimer .odet-prod--cta .odet-prod--cta-btn {
 	width: 149px;
 	height: 44px;
@@ -180,19 +151,16 @@
 	border-radius: 5px;
 	border: 1px solid #0458AD;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--cta-disclaimer .odet-prod--cta .odet-prod--cta-text {
 	font-family: corisanderegular;
 	font-size: 16px;
 	line-height: 18px;
 	color: #FFFFFF;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--cta-disclaimer .odet-prod--disclaimer {
 	width: 149px;
 	text-align: center;
 }
-
 .odet-prod--wrapper .odet-prod--status-container .odet-prod--grouping-tile .odet-prod--cta-disclaimer .odet-prod--disclaimer .odet-prod--disclaimer-text {
 	font-family: corisanderegular;
 	font-size: 12px;
@@ -200,7 +168,6 @@
 	color: #666666;
 	align-content: center;
 }
-
 @media screen and (max-width: 767px) {
 	.odet-prod--wrapper .odet-prod--status-container {
 		padding-top: 48px;
